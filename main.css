@@ -101,3 +101,87 @@ body{
 .form__input:focus {
     box-shadow: 2px 2px 20px blue;
 }
+
+
+
+.danger {
+    color:red;
+    animation-name:dange;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+@keyframes dange {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.02,1.02);
+        text-shadow: 2px 2px 8px black;
+    }
+}
+
+.normal {
+    color: chartreuse;
+    animation-name:norm;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+@keyframes norm {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.02,1.02);
+        text-shadow: 2px 2px 8px black;
+    }
+}
+.should {
+    color:blue;
+    animation-name:should;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+@keyframes should {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.02,1.02);
+        text-shadow: 2px 2px 8px black;
+    }
+}
+.good {
+    color: #000;
+    animation-name:blac;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+@keyframes blac {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.02,1.02);
+        text-shadow: 2px 2px 8px black;
+    }
+}
+.num-last {
+    color: green;
+    animation-name:last;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+@keyframes last {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.02,1.02);
+        text-shadow: 2px 2px 8px black;
+    }
+}
